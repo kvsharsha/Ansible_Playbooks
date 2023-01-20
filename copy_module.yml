@@ -10,7 +10,7 @@
           dest: /home/ansadmin/
 
 
-#      - name: delete the file
-#        file: 
-#          path: /home/ansadmin/yum_module.yml
-#          state: absent 
+      - name: delete the file
+        file: 
+          path: /home/ansadmin/yum_module.yml
+          state: absent 
