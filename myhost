@@ -9,7 +9,7 @@ S1 ansible_host=172.31.87.64
 webservers
 
 [appdbweb:vars]
-ansible_user=ansadmin
+ansible_user=root
 ansible_connection=ssh
 
 #[appserver:vars]
