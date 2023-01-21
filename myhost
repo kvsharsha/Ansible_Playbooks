@@ -1,9 +1,7 @@
 [webservers]
-172.31.87.111
-172.31.87.64
+172.31.5.111
+172.31.9.249
 
-#[appserver]   
-#172.31.89.125
 
 [appdbweb:children]
 webservers
@@ -11,7 +9,5 @@ webservers
 [appdbweb:vars]
 ansible_user=ansadmin
 ansible_connection=ssh
+~
 
-#[appserver:vars]
-#ansible_user=root
-#ansible_connection=ssh
